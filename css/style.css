@@ -188,13 +188,10 @@ sub {
   from {
     -webkit-transform: rotate(0);
     /* Saf3.1+, Chrome */
-  
     -moz-transform: rotate(0);
     /* FF3.5+ */
-  
     -ms-transform: rotate(0);
     /* IE9 */
-  
     -o-transform: rotate(0);
     /* Opera 10.5 */
     transform: rotate(0);
@@ -203,13 +200,10 @@ sub {
   50% {
     -webkit-transform: rotate(180deg);
     /* Saf3.1+, Chrome */
-  
     -moz-transform: rotate(180deg);
     /* FF3.5+ */
-  
     -ms-transform: rotate(180deg);
     /* IE9 */
-  
     -o-transform: rotate(180deg);
     /* Opera 10.5 */
     transform: rotate(180deg);
@@ -218,13 +212,10 @@ sub {
   to {
     -webkit-transform: rotate(0);
     /* Saf3.1+, Chrome */
-  
     -moz-transform: rotate(0);
     /* FF3.5+ */
-  
     -ms-transform: rotate(0);
     /* IE9 */
-  
     -o-transform: rotate(0);
     /* Opera 10.5 */
     transform: rotate(0);
@@ -240,7 +231,7 @@ body {
   font-size: 1.6em;
   line-height: 1.618;
   color: #464646;
-  font-family: 'Open Sans', serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
@@ -566,6 +557,11 @@ footer img {
 .single-article section > p:first-child {
   font-size: 1.1em;
   font-weight: 600;
+}
+.comments-section {
+  margin: 6.854em auto 6.854em;
+  width: 100%;
+  max-width: 740px;
 }
 /* RESPOND */
 @media only screen and (min-width: 769px) {
